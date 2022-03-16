@@ -11,10 +11,11 @@ app.use("/books", router); // localhost:5000/books
 
 mongoose
   .connect(
-    "mongodb+srv://admin:nUd0zMDtbX35sTL0@cluster0.5yvzr.mongodb.net/bookStore?retryWrites=true&w=majority"
+    "mongodb+srv://admin:ShWHwg8sbYCstOsW@cluster0.fnwlj.mongodb.net/book-store-MERN?retryWrites=true&w=majority"
   )
   .then(() => console.log("Connected To Database"))
   .then(() => {
     app.listen(5000);
   })
   .catch((err) => console.log(err));
+//ShWHwg8sbYCstOsW
